@@ -1,0 +1,98 @@
+body{
+    background-color: #a8ddf3;
+    margin: 10px;
+}
+
+.barraArriba{
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;;
+}
+
+.primero{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-end;
+ }
+
+ .espaciado{
+    margin-left: 10px;
+ }
+
+ .segundo{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: flex-end;
+ }
+
+.circular2{
+    width: 348px; 
+    height: 100%; 
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+p {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+    }
+
+
+.ultimo{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: space-between;
+}
+
+.alapar{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.cuadro{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    border: 2px solid #333; /* Establece un borde de 2 píxeles sólido con color #333 */
+    padding: 20px; /* Añade un espacio interno de 20 píxeles */
+    width: 60%; /* Define el ancho del cuadro */
+    height: auto;
+    margin: 20px; /* Establece un margen externo de 20 píxeles */
+    background-color: #356d82; /* Define un color de fondo */
+}
+
+.imagenesSkills{
+    width: 100px;
+    height: auto;
+}
+
+.alapar2{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
